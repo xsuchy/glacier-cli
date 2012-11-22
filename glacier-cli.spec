@@ -12,6 +12,7 @@ URL:		https://github.com/basak/glacier-cli
 # cd glacier-cli
 # tito build --tgz
 Source0:	%{name}-%{version}.tar.gz
+BuildArch:	noarch
 
 BuildRequires:	python-devel
 Requires:	python-boto
