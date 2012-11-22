@@ -2,7 +2,7 @@
 
 Name:		glacier-cli
 Version:	0.0
-Release:	0%{glacier_hash}%{?dist}
+Release:	1%{glacier_hash}%{?dist}
 Summary:	Command-line interface to Amazon Glacier
 
 Group:		Applications/Internet
@@ -42,4 +42,7 @@ install -m755 glacier.py %{buildroot}%{_bindir}/glacier
 
 
 %changelog
+* Thu Nov 22 2012 Miroslav Suchý <msuchy@redhat.com> 0.0-1.e98ade8
+- new package built with tito
+
 
